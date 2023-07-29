@@ -5,7 +5,7 @@ requerimientos
 instalar puppeter
 instalar youtube-dl
 
-# Nombre del Proyecto
+# Scraping reddit
 
 [![Estado del Proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)](https://github.com/tu-usuario/tu-repositorio)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-blue)](https://opensource.org/licenses/MIT)
