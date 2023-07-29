@@ -23,7 +23,7 @@ const exec = util.promisify(require('child_process').exec);
         console.log(enlace)
         const { stdout } = await exec(`youtube-dl '${enlace}' `);
     }
-// comando para poder ejecutar comandos de consola desde javascritp    
+// comando para poder ejecutar comandos de consola desde javascritp
     exec('mv *.mp4 videos/;cd videos; dir -b > lista.txt', (error, stdout, stderr) => {
         if (error) {
             console.error(`error: ${error.message}`);
